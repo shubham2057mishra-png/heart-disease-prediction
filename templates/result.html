@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Heart Disease Prediction - Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+    <style>
+      .container{
+        padding: 20px;
+      }
+    </style>
+<body>
+  <div class="container">  <h1>Heart Disease Prediction - Result</h1>
+    <p>Prediction:</p>
+    <p style="font-weight: bold;">You are predicted to have a {{ form_data }} risk of heart disease.</p>
+    
+  </div>
+ 
+</body>
+</html>
